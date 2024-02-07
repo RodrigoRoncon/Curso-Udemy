@@ -1,0 +1,43 @@
+/* media query*/
+
+/* BREAKPOINTS MAIS UTILIZADOS 
+
+    Celular: 600px e abaixo
+    Tablets: 768px até 600px
+    Mini Laptops: 992px até 768px
+    Desktops e Laptops: 992px e acima
+
+*/
+h1 {
+    color: blue;
+}
+
+p {
+    background-color: red;
+    color: #fff;
+}
+
+@media screen and (max-width: 500px) {
+    h1 {
+        color: red;
+    }
+}
+
+
+@media screen and (min-width: 800px){
+    p {
+        background-color: #789;
+        color: #000;
+    }
+}
+
+/* LandScape */
+h3 {
+    display: none;
+}
+
+@media screen and (orientation: landscape) {
+    h3 {
+        display: block;
+    }
+}
